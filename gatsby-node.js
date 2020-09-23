@@ -16,7 +16,7 @@ exports.createPages = async function ({ actions, graphql }) {
 
   // Create paginated pages for posts
 
-  const postPerPage = 3
+  const postPerPage = 4
 
   // Calculate how many paginated pages Gatsby needs to create
 

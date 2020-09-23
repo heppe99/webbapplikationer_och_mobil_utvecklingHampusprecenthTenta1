@@ -24,7 +24,7 @@ const allPosts = ({ pageContext, data }) => {
       <Seo />
       <FeatureImage />
       <Content>
-        <H1 textAlign="center" margin="0 0 1rem 0">
+        <H1 textAlign="center" margin="0 0 1rem 0" width>
           Elit rhoncus tellus proin parturient.
         </H1>
         <P color="dark2" textAlign="center">
