@@ -14,5 +14,7 @@ export const ContainerWrapper = styled.div`
 
   @media ${props => props.theme.breakpoints.mobile} {
     grid-template-columns: 1rem repeat(6, 1fr) 1rem;
+    display: flex;
+    flex-direction: column; 
   }
 `

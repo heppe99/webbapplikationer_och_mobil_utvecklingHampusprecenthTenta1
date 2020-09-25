@@ -7,4 +7,7 @@ export const CardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media ${props => props.theme.breakpoints.mobile} {
+    width: 100%;
+  }
 `

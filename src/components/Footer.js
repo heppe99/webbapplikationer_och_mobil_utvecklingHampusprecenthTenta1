@@ -51,7 +51,7 @@ export const Footer = () => {
             <img src={data.twitter.publicURL} alt="Twitter logo" />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/decent.zociety/"
             target="_blank"
             rel="noopener noreferrer"
           >

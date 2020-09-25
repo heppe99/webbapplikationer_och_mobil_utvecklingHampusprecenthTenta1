@@ -5,7 +5,7 @@ import { NavWrapper, P, H1} from "../elements"
 export const Nav = () => {
   const data = useStaticQuery(graphql`
   query logoQuery{
-    file(relativePath: {eq: "bos.svg"}) {
+    file(relativePath: {eq: "decent.jpg"}) {
       publicURL
       name
     }
@@ -17,7 +17,7 @@ export const Nav = () => {
       <Link to="/">
         <img src={data.file.publicURL} alt="My Logo" />
       </Link>
-      <H1>Bimmers Of Sweden</H1>
+      <H1>Decent Zociety</H1>
       <Link to="/">
         <P>Kontakt</P>
       </Link>

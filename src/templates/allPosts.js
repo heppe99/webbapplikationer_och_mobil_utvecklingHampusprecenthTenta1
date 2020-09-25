@@ -24,13 +24,13 @@ const allPosts = ({ pageContext, data }) => {
       <Seo />
       <FeatureImage />
       <Content>
-        <H1 textAlign="center" margin="0 0 1rem 0" width>
-          Elit rhoncus tellus proin parturient.
+        <H1 textAlign="center" margin="0 0 1rem 0" color="light1">
+        Decent Zociety
         </H1>
-        <P color="dark2" textAlign="center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing
-          volutpat risus quis lorem pulvinar et pulvinar sit dictum. Eget orci,
-          orci in congue cursus nulla tincidunt facilisi.
+        <P color="light1" textAlign="center">
+          Det här är en blogg om det sköna gänget Decent Zociety. Vi är 5 grabbar som älskar bilar och 
+          lägger ner alla pengar och all tid vi bara kan på våra glänsande pärlor. Här kommer du få läsa
+          om allt som har med våran vardag att göra. Allt från drifting till utställning. Hoppas du stannar!
         </P>
         {posts.map(post => (
           <ContentCard
