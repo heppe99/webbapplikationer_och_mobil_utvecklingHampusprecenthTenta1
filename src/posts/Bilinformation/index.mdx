@@ -1,0 +1,54 @@
+---
+title: Bilinfo
+slug: Bilinformation
+date: 2019-01-01
+featureImage: volvov70.PNG
+excerpt: Information om alla våra bilar
+---
+
+
+### Bilinformation 
+
+| Bil    | Årtal | Ägare         | Styling  | Kostnad för bil + mods     |
+| --------- | ----------- | ------------ | ------ | ------------------- |
+| BMW E36 Cupé    | 1998       | Albin | Coliover, Felonykit, Fälgar, Camberstag | 150 000    |
+| BMW E46 Sedan    | 2001       | Hampus | Styrstag, Luftfilter, Fälgar | 50 000    |
+| BMW E36 Cupé    | 1997       | Anton | Ingen | 35 000    |
+| BMW E36 Cupé    | 1999       | Emir | Colivers, Fälgar | 45 000    |
+| VW Vento    | 1996       | Hugo | Ingen | 15 000    |
+| Volvo V70    | 2010       | Pontus | Coliover, fälgar, läpp | 90 000    |
+
+
+---
+
+Här är även lite cool kod som lite av hemsidan är uppbyggd av!
+
+```html
+<CardWrapper>
+      <P>
+        {date}
+      </P>
+      <H2>
+        {title}
+      </H2>
+      <P>
+        {excerpt}
+      </P>
+      <Button href={slug}>Read More</Button>
+</CardWrapper>
+```
+---
+
+```css
+   styled.div`
+  margin-top: 2rem;
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media ${props => props.theme.breakpoints.mobile} {
+    width: 100%;
+  }
+`
+```
