@@ -17,5 +17,6 @@ export const NavWrapper = styled.nav`
   @media ${props => props.theme.breakpoints.mobile} {  
     flex-direction: column;
     grid-row: 1 / 5;
+    margin-bottom: 2em;
   }
 `

@@ -10,7 +10,7 @@ const singlePost = ({ data }) => {
   const seoImage = data.mdx.frontmatter.featureImage.publicURL
 
   return (
-    <Container>
+    <Container >
       <Seo
         title={data.mdx.frontmatter.title}
         image={seoImage}
@@ -18,7 +18,7 @@ const singlePost = ({ data }) => {
       />
       <FeatureImage fixed={featureImage} />
       <Post>
-        <H1 margin="0 0 2rem 0">{data.mdx.frontmatter.title}</H1>
+        <H1 margin="0 0 2rem 0" textAlign="center" >{data.mdx.frontmatter.title}</H1>
         <MDXRenderer>{data.mdx.body}</MDXRenderer>
       </Post>
     </Container>
